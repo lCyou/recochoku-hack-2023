@@ -1,7 +1,7 @@
 <?php
 try {
-    $dsn = "mysql:dbname=recochoku;host=localhost";
-    $user = 'root';
+    $dsn = "";
+    $user = '';
     $password = '';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING, PDO::ATTR_EMULATE_PREPARES => false,));
     //echo "成功しました";
